@@ -12,7 +12,7 @@ import classes from './Users.module.css';
 class Users extends Component {
   constructor() {
     super()
-    this.state = {showUsers: false} ; 
+    this.state = {showUsers: true} ; 
   }
 
   toggleUsersHandler = () => {
